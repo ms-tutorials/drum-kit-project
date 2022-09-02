@@ -6,6 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Drum Kit Project</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="css/style.css">
 </head>
 
@@ -13,57 +16,80 @@
 
     <div class="overlay"></div>
 
-    <section>
-        <main>
-            <div class="title-container">
-                <h1>Drum Kit</h1>
-            </div>
-            <div class="container">
+    <main>
+        <div class="title-container">
+            <h1>Drum Kit</h1>
+        </div>
+        <div class="container">
 
-                <div class="key" data-code="97" data-keycode="65" role="button">
-                    <span>A</span>
-                </div>
-                <div class="key" data-code="98" data-keycode="66" role="button">
-                    <span>B</span>
-                </div>
-                <div class="key" data-code="99" data-keycode="67" role="button">
-                    <span>C</span>
-                </div>
-                <div class="key" data-code="100" data-keycode="68" role="button">
-                    <span>D</span>
-                </div>
-                <div class="key" data-code="101" data-keycode="69" role="button">
-                    <span>E</span>
-                </div>
-                <div class="key" data-code="102" data-keycode="70" role="button">
-                    <span>F</span>
-                </div>
-                <div class="key" data-code="103" data-keycode="71" role="button">
-                    <span>G</span>
-                </div>
-                <div class="key" data-code="104" data-keycode="72" role="button">
-                    <span>H</span>
-                </div>
-                <div class="key" data-code="105" data-keycode="73" role="button">
-                    <span>I</span>
-                </div>
-
-                <div class="audio-container">
-                    <audio src="./media/boom.wav" data-code="97" data-keycode="65"></audio>
-                    <audio src="./media/clap.wav" data-code="98" data-keycode="66"></audio>
-                    <audio src="./media/hihat.wav" data-code="99" data-keycode="67"></audio>
-                    <audio src="./media/kick.wav" data-code="100" data-keycode="68"></audio>
-                    <audio src="./media/openhat.wav" data-code="101" data-keycode="69"></audio>
-                    <audio src="./media/ride.wav" data-code="102" data-keycode="70"></audio>
-                    <audio src="./media/snare.wav" data-code="103" data-keycode="71"></audio>
-                    <audio src="./media/tink.wav" data-code="104" data-keycode="72"></audio>
-                    <audio src="./media/tom.wav" data-code="105" data-keycode="73"></audio>
-                </div>
+            <div class="key" data-code="97" data-keycode="65" role="button">
+                <span>A</span> <br>
+                <p>Boom</p>
             </div>
-        </main>
+            <div class="key" data-code="98" data-keycode="66" role="button">
+                <span>B</span><br>
+                <p>Clap</p>
+            </div>
+            <div class="key" data-code="99" data-keycode="67" role="button">
+                <span>C</span><br>
+                <p>Hi Hat</p>
+            </div>
+            <div class="key" data-code="100" data-keycode="68" role="button">
+                <span>D</span><br>
+                <p>Kick</p>
+            </div>
+            <div class="key" data-code="101" data-keycode="69" role="button">
+                <span>E</span><br>
+                <p>Open Hat</p>
+            </div>
+            <div class="key" data-code="102" data-keycode="70" role="button">
+                <span>F</span><br>
+                <p>Ride</p>
+            </div>
+            <div class="key" data-code="103" data-keycode="71" role="button">
+                <span>G</span><br>
+                <p>Snare</p>
+            </div>
+            <div class="key" data-code="104" data-keycode="72" role="button">
+                <span>H</span><br>
+                <p>Tink</p>
+            </div>
+            <div class="key" data-code="105" data-keycode="73" role="button">
+                <span>I</span><br>
+                <p>Tom</p>
+            </div>
+
+            <div class="audio-container">
+                <audio src="./media/boom.wav" data-code="97" data-keycode="65"></audio>
+                <audio src="./media/clap.wav" data-code="98" data-keycode="66"></audio>
+                <audio src="./media/hihat.wav" data-code="99" data-keycode="67"></audio>
+                <audio src="./media/kick.wav" data-code="100" data-keycode="68"></audio>
+                <audio src="./media/openhat.wav" data-code="101" data-keycode="69"></audio>
+                <audio src="./media/ride.wav" data-code="102" data-keycode="70"></audio>
+                <audio src="./media/snare.wav" data-code="103" data-keycode="71"></audio>
+                <audio src="./media/tink.wav" data-code="104" data-keycode="72"></audio>
+                <audio src="./media/tom.wav" data-code="105" data-keycode="73"></audio>
+            </div>
+        </div>
+    </main>
+
+    <section class="footer">
+        <footer>
+            <a href="https://github.com/devsamuelmwangi" target="_blank" rel="noopener noreferrer">
+                <span>
+                    <i class="fa-brands fa-github"></i>
+                </span>
+            </a>
+            <a href="https://linkedin.com/in/devsamuelmwangi" target="_blank" rel="noopener noreferrer">
+                <span>
+                    <i class="fa-brands fa-linkedin"></i>
+                </span>
+            </a>
+            <a href="https://github.com/ms-tutorials/drum-kit-project#readme" target="_blank" rel="noopener noreferrer">
+                <p>MS School Tutorial</p>
+            </a>
+        </footer>
     </section>
-
-
 
     <script src="js/script.js"></script>
 </body>

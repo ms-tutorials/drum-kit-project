@@ -10,7 +10,7 @@
 
 #### Final Project Preview
 
-![Final Project Preview](https://raw.githubusercontent.com/ms-tutorials/drum-kit-project/main/images/preview.PNG) <br><br><br><br>
+![Final Project Preview](https://raw.githubusercontent.com/ms-tutorials/drum-kit-project/main/media/images/preview.PNG) <br><br><br><br>
 
 
 ## Languages and Frameworks
@@ -54,4 +54,5 @@ SSH: `git clone git@github.com:ms-tutorials/drum-kit-project.git`
 
 ## Further Exploration For Students
 
+- [ ] Add logic to play audio on button click as well
 - [ ] Make project responsive
