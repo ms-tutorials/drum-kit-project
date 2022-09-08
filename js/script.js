@@ -12,9 +12,15 @@ document.addEventListener(
         document.querySelector(`audio[data-code="${event.keyCode}"]`) ||
         document.querySelector(`audio[data-keycode="${event.keyCode}"]`);
 
-      buttonPressed.classList.toggle("currently-playing");
+      buttonPressed.classList.add("currently-playing");
       audio.play();
       audio.currentTime = 0;
+
+      buttonPressed.addEventListener("transitionend", removeClass, false);
+
+      function removeClass() {
+        buttonPressed.classList.remove("currently-playing");
+      }
     }
   },
   false
